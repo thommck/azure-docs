@@ -53,7 +53,7 @@ composed of:
   - Two virtual machines running Active Directory Domain Services (ADDS) and DNS only accessible
     through the jumpbox, and can be configured only to replicate AD over a VPN or [ExpressRoute](../../../../expressroute/expressroute-introduction.md)
     connection (not deployed by the blueprint)
-  - Use of [Azure Net Watcher](../../../../network-watcher/network-watcher-monitoring-overview.md)
+  - Use of [Azure Network Watcher](../../../../network-watcher/network-watcher-monitoring-overview.md)
     and standard DDoS protection
 - An [Azure Key Vault](../../../../key-vault/key-vault-whatis.md) instance used to host secrets used
   for the VMs deployed in the shared services environment
